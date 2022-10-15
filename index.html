@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="btnContainer">
+            <button class="changeSizeBtn" onclick="changeSize()">Change Size</button>
+            <button class="blackBtn" onclick="setColour('black')">Black</button>
+            <button class="whiteBtn" onclick="setColour('white')">White</button>
+            <button class="rainbowBtn" onclick="setColour('rainbow')">Rainbow</button>
+            <button class=" resetBtn" onclick="resetGrid()">Reset</button>
+        </div>
+        <div class="gridContainer"></div>
+    </div>
+</body>
+
+</html>
